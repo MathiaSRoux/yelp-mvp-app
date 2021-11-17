@@ -12,6 +12,10 @@
   </head>
 
   <body>
+  <div class="navbar-lewagon">
+    <h1>Restaurant.com</h1>
+    <%= link_to 'create a restaurant', new_restaurant_path(@restaurant) %>
+  </div>
     <%= yield %>
   </body>
 </html>
